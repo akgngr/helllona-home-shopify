@@ -11,6 +11,13 @@
             "show_social": true
           }
         },
+        "9daada05-4185-49c2-9bf5-9b07e0874c66": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "subtext": ""
+          }
+        },
         "a0d6c3e3-b2a3-4d29-b0ae-fb25fae35496": {
           "type": "link_list",
           "settings": {
@@ -28,6 +35,7 @@
       },
       "block_order": [
         "639042fa-a14d-47d1-b0e3-78e2853c0b01",
+        "9daada05-4185-49c2-9bf5-9b07e0874c66",
         "a0d6c3e3-b2a3-4d29-b0ae-fb25fae35496",
         "ae00c94a-86c9-425c-a4c6-29d2f810cfa1"
       ],
