@@ -18,6 +18,12 @@
         content: '';
         display: block;
       }
+      .mobil{
+        display:none;
+      }
+      .desktop{
+        display:block;
+      }
     }
 
     @media screen and (min-width: 750px) {
@@ -27,14 +33,34 @@
         content: '';
         display: block;
       }
+      .mobil{
+        display:block;
+      }
+      .desktop{
+        display:none;
+      }
     }
   {%- endstyle -%}
 {%- endif -%}
+
 <div class="page-width flex justify-center">
-  <a href="{{ section.settings.collection }}">
+  <a class="desktop" href="{{ section.settings.collection }}">
     {{
-      section.settings.image
+      section.settings.image_desktop
       | image_url: width: 3840
+      | image_tag:
+        loading: 'lazy',
+        width: section.settings.image.width,
+        height: image_height,
+        class: image_class,
+        sizes: sizes,
+        widths: widths
+    }}
+  </a>
+  <a class="mobil" href="{{ section.settings.collection }}">
+    {{
+      section.settings.image_mobile
+      | image_url: width: 414
       | image_tag:
         loading: 'lazy',
         width: section.settings.image.width,
@@ -57,8 +83,13 @@
   "settings": [
     {
       "type": "image_picker",
-      "id": "image",
-      "label": "Image"
+      "id": "image_desktop",
+      "label": "Desktop Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_mobil",
+      "label": "Mobile Image"
     },
     {
       "type": "collection",
