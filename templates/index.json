@@ -1,74 +1,121 @@
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
+    "95f15104-3b27-40c9-981d-63f4004ebed5": {
+      "type": "image",
+      "settings": {
+        "image_desktop": "shopify:\/\/shop_images\/banner_alle2.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/mobil_banner.jpg",
+        "collection": "home",
+        "image_height": "medium"
+      }
+    },
+    "e28f8d70-1d9c-4ed4-8b6d-d9a08d780f5b": {
+      "type": "carausel",
+      "settings": {
+        "title": "Carausel collection",
+        "pt": 120,
+        "pb": 120,
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "home"
+      }
+    },
+    "908a8259-251b-4cef-a9f1-c546dda63c28": {
+      "type": "image",
+      "settings": {
+        "image_desktop": "shopify:\/\/shop_images\/hellone_home_2.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/mobil_banner.jpg",
+        "collection": "home",
+        "image_height": "medium"
+      }
+    },
+    "7e49999d-18ee-4a1b-9782-769f179afe8f": {
+      "type": "carausel",
+      "settings": {
+        "title": "Carausel collection",
+        "pt": 60,
+        "pb": 60,
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "home"
+      }
+    },
+    "f236711a-da7b-4b7d-a3f4-1176fc6c53f4": {
+      "type": "image",
+      "settings": {
+        "image_desktop": "shopify:\/\/shop_images\/hellone_home.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/mobil_banner1.jpg",
+        "collection": "home",
+        "image_height": "medium"
+      }
+    },
+    "a281108c-cbdf-4fb5-9bce-8dccf6c78685": {
+      "type": "multicolumn",
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "template--19483493892405__a281108c-cbdf-4fb5-9bce-8dccf6c78685-16865562690301db03-0": {
+          "type": "column",
           "settings": {
-            "heading": "Browse our latest products",
-            "heading_size": "h0"
+            "image": "shopify:\/\/shop_images\/fast.png",
+            "title": "Kostenloser Und Schneller Versand",
+            "text": "<p>Wir bieten einen kostenlosen und schnellen Versand innerhalb Europas.<\/p>",
+            "link_label": "",
+            "link": ""
           }
         },
-        "button": {
-          "type": "buttons",
+        "template--19483493892405__a281108c-cbdf-4fb5-9bce-8dccf6c78685-16865562690301db03-1": {
+          "type": "column",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "image": "shopify:\/\/shop_images\/money.png",
+            "title": "Sicher Einkaufen",
+            "text": "<p>Wir bieten Ihnen eine sichere Infrastruktur für Ihren Einkauf.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19483493892405__a281108c-cbdf-4fb5-9bce-8dccf6c78685-16865562690301db03-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/save-money.png",
+            "title": "Rückgabe innerhalb von 30 Tagen",
+            "text": "<p>Wenn Sie nicht zufrieden sind, können Sie Ihr Produkt innerhalb von 30 Tagen zurückgeben.<\/p>",
+            "link_label": "",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "heading",
-        "button"
+        "template--19483493892405__a281108c-cbdf-4fb5-9bce-8dccf6c78685-16865562690301db03-0",
+        "template--19483493892405__a281108c-cbdf-4fb5-9bce-8dccf6c78685-16865562690301db03-1",
+        "template--19483493892405__a281108c-cbdf-4fb5-9bce-8dccf6c78685-16865562690301db03-2"
       ],
       "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
-      }
-    },
-    "featured_collection": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
         "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 44,
+        "padding_top": 36,
         "padding_bottom": 36
       }
     }
   },
   "order": [
-    "image_banner",
-    "featured_collection"
+    "95f15104-3b27-40c9-981d-63f4004ebed5",
+    "e28f8d70-1d9c-4ed4-8b6d-d9a08d780f5b",
+    "908a8259-251b-4cef-a9f1-c546dda63c28",
+    "7e49999d-18ee-4a1b-9782-769f179afe8f",
+    "f236711a-da7b-4b7d-a3f4-1176fc6c53f4",
+    "a281108c-cbdf-4fb5-9bce-8dccf6c78685"
   ]
 }
