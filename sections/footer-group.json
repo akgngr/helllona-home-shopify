@@ -32,9 +32,9 @@
         "ae00c94a-86c9-425c-a4c6-29d2f810cfa1"
       ],
       "settings": {
-        "color_scheme": "background-1",
+        "color_scheme": "background-2",
         "newsletter_enable": true,
-        "newsletter_heading": "Subscribe to our emails",
+        "newsletter_heading": "Abonnieren Sie unsere E-Mails",
         "enable_follow_on_shop": true,
         "show_social": true,
         "enable_country_selector": true,
