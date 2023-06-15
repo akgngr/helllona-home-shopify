@@ -1,6 +1,8 @@
 {
   "current": {
+    "logo": "shopify:\/\/shop_images\/hllona_logo.png",
     "logo_width": 90,
+    "favicon": "shopify:\/\/shop_images\/hellona_favicon.png",
     "colors_solid_button_labels": "#ffffff",
     "colors_accent_1": "#121212",
     "gradient_accent_1": "",
@@ -16,7 +18,7 @@
     "heading_scale": 100,
     "type_body_font": "assistant_n4",
     "body_scale": 100,
-    "page_width": 1400,
+    "page_width": 1200,
     "spacing_sections": 0,
     "spacing_grid_horizontal": 8,
     "spacing_grid_vertical": 8,
