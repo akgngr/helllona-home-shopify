@@ -11,8 +11,15 @@
     .mobil {
       display: block;
     }
+    .mobile img {
+      width: 100% !important;
+    }
     .desktop {
       display: none;
+    }
+    .mobile-padding {
+      padding-left: 0;
+      padding-right: 0;
     }
   }
 
@@ -60,7 +67,7 @@
   {%- endstyle -%}
 {%- endif -%}
 
-<div class="page-width flex justify-center">
+<div class="page-width flex justify-center mobile-padding">
   <a class="desktop" href="{{ section.settings.collection }}">
     {{
       section.settings.image_desktop
