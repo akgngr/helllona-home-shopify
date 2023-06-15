@@ -322,6 +322,10 @@
     },
     "page": {
       "title": "Seitentitel"
+    },
+    "carausel_collection": {
+      "view_all": "Alle ansehen",
+      "view_all_label": "Sehen Sie sich alle Produkte in der Kollektion {{ collection_name }} an"
     }
   },
   "localization": {
