@@ -4,7 +4,7 @@
       "type": "image",
       "settings": {
         "image_desktop": "shopify:\/\/shop_images\/banner_alle2.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/mobil_banner.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/mobil_alle.jpg",
         "collection": "home",
         "image_height": "medium"
       }
