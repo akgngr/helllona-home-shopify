@@ -322,6 +322,10 @@
     },
     "page": {
       "title": "Sayfa başlığı"
+    },
+    "carausel_collection": {
+      "view_all": "Hepsini gör",
+      "view_all_label": "{{ collection_name }} koleksiyonundaki tüm ürünleri görüntüleyin"
     }
   },
   "localization": {
