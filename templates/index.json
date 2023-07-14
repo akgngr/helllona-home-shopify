@@ -27,7 +27,7 @@
       "settings": {
         "image_desktop": "shopify:\/\/shop_images\/hellone_home_2.jpg",
         "image_mobile": "shopify:\/\/shop_images\/mobil_banner.jpg",
-        "collection": "frontpage",
+        "collection": "frezeit",
         "image_height": "medium"
       }
     },
@@ -49,7 +49,7 @@
       "settings": {
         "image_desktop": "shopify:\/\/shop_images\/hellone_home.jpg",
         "image_mobile": "shopify:\/\/shop_images\/mobil_banner1.jpg",
-        "collection": "frontpage",
+        "collection": "kuche",
         "image_height": "medium"
       }
     },
