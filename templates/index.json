@@ -5,7 +5,7 @@
       "settings": {
         "image_desktop": "shopify:\/\/shop_images\/banner_alle2.jpg",
         "image_mobile": "shopify:\/\/shop_images\/1.jpg",
-        "collection": "frontpage",
+        "link": "shopify:\/\/collections",
         "image_height": "medium"
       }
     },
@@ -27,7 +27,7 @@
       "settings": {
         "image_desktop": "shopify:\/\/shop_images\/hellone_home_2.jpg",
         "image_mobile": "shopify:\/\/shop_images\/mobil_banner.jpg",
-        "collection": "frezeit",
+        "link": "",
         "image_height": "medium"
       }
     },
@@ -49,7 +49,7 @@
       "settings": {
         "image_desktop": "shopify:\/\/shop_images\/hellone_home.jpg",
         "image_mobile": "shopify:\/\/shop_images\/mobil_banner1.jpg",
-        "collection": "kuche",
+        "link": "",
         "image_height": "medium"
       }
     },
