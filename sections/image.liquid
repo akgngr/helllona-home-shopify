@@ -66,9 +66,8 @@
     }
   {%- endstyle -%}
 {%- endif -%}
-{{ section.settings.link | json }}
 <div class="page-width flex justify-center mobile-padding">
-  <a class="desktop" href="{{ section.settings.collection }}">
+  <a class="desktop" href="{{ section.settings.link }}">
     {{
       section.settings.image_desktop
       | image_url: width: 3840
@@ -81,7 +80,7 @@
         widths: widths
     }}
   </a>
-  <a class="mobil" href="{{ section.settings.collection }}">
+  <a class="mobil" href="{{ section.settings.link }}">
     {{
       section.settings.image_mobile
       | image_url: width: 414
