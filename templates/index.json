@@ -12,7 +12,7 @@
     "e28f8d70-1d9c-4ed4-8b6d-d9a08d780f5b": {
       "type": "carausel",
       "settings": {
-        "title": "Carausel collection",
+        "title": "Meistverkaufte Produkte",
         "pt": 120,
         "pb": 120,
         "heading_size": "h1",
@@ -34,7 +34,7 @@
     "7e49999d-18ee-4a1b-9782-769f179afe8f": {
       "type": "carausel",
       "settings": {
-        "title": "Carausel collection",
+        "title": "Neue Produkte",
         "pt": 60,
         "pb": 60,
         "heading_size": "h1",
